@@ -1,0 +1,21 @@
+name: ml-macos-m2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - jupyterlab
+  - seaborn
+  - ipykernel
+  - h5py
+  - pip:
+      - tensorflow-macos
+      - tensorflow-metal
+      - torch
+      - torchvision
+      - torchaudio
